@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/youc/Dropbox/ZC Airsoft/Banshee Lite/A1.0/V1.sch</source>
+    <date>Fri 13 Nov 2015 07:30:33 AM EST</date>
+    <tool>Eeschema (2015-10-26 BZR 6281)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Banshee Lite</title>
+        <company>ZC Airsoft</company>
+        <rev>A1.0</rev>
+        <date>2015-11-06</date>
+        <source>V1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>FET</value>
+      <libsource lib="device" part="MOSFET_N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563CFFAA</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>TVS</value>
+      <libsource lib="device" part="ZENER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D021A</tstamp>
+    </comp>
+    <comp ref="Motor1">
+      <value>CONN_1</value>
+      <libsource lib="conn" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D290D</tstamp>
+    </comp>
+    <comp ref="Battery2">
+      <value>CONN_1</value>
+      <libsource lib="conn" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D2BEF</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000pf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D3080</tstamp>
+    </comp>
+    <comp ref="FB1">
+      <value>120 ohms</value>
+      <libsource lib="device" part="FILTER"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D00C2</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>Gate Driver</value>
+      <libsource lib="BansheeLite" part="MCP1416T-E/OT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D34AF</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Trigger</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D3422</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>3.57k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D3ED0</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>.1uf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D3F80</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>75k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D3F2B</tstamp>
+    </comp>
+    <comp ref="Safety1">
+      <value>S2</value>
+      <libsource lib="device" part="SPST"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D4629</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D50AE</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>.1uf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D5105</tstamp>
+    </comp>
+    <comp ref="Battery1">
+      <value>CONN_1</value>
+      <libsource lib="conn" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D553F</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>FUSE</value>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D563B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DIODE</value>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D56A4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>150ohms</value>
+      <libsource lib="device" part="CAPAPOL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>563D5717</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Dual Monostable Multivibrator</value>
+      <libsource lib="BansheeLite" part="CD14538B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645CCE6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>75k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D028</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>75k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D19E</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>.1uf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D4B6</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>.1uf</value>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645D965</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Cutoff</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645E096</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>3.57k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645E415</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Selector</value>
+      <libsource lib="device" part="SW_PUSH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645F8F5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>3.57k ohms</value>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5645FD1E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>Hex Inverter</value>
+      <libsource lib="BansheeLite" part="CD40106B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>564623C5</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>Quad AND</value>
+      <libsource lib="BansheeLite" part="CD4081B"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5646393D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <aliases>
+        <alias>CAPAPOL</alias>
+      </aliases>
+      <description>Condensateur polarise</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="MOS_N">
+      <aliases>
+        <alias>MOSFET_N</alias>
+      </aliases>
+      <docs>transistors/mos/*.*</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_N</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SPST">
+      <description>Interrupteur simple</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SPST</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="SW_PUSH">
+      <description>Push Button</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="ZENER">
+      <description>Diode zener</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>SO*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZENER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_1">
+      <description>1 pin</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="BansheeLite" part="CD14538B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD14538B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Cx1" type="input"/>
+        <pin num="2" name="RxCx1" type="input"/>
+        <pin num="3" name="RESET1" type="input"/>
+        <pin num="4" name="+TR1" type="input"/>
+        <pin num="5" name="-TR1" type="input"/>
+        <pin num="6" name="Q1" type="output"/>
+        <pin num="7" name="!Q1" type="output"/>
+        <pin num="8" name="Vss" type="power_in"/>
+        <pin num="9" name="!Q2" type="output"/>
+        <pin num="10" name="Q2" type="output"/>
+        <pin num="11" name="-TR2" type="input"/>
+        <pin num="12" name="+TR2" type="input"/>
+        <pin num="13" name="RESET2" type="input"/>
+        <pin num="14" name="RxCx2" type="input"/>
+        <pin num="15" name="Cx2" type="input"/>
+        <pin num="16" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BansheeLite" part="CD40106B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD40106B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="!A" type="output"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="!B" type="output"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="!C" type="output"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="!D" type="output"/>
+        <pin num="9" name="D" type="input"/>
+        <pin num="10" name="!E" type="output"/>
+        <pin num="11" name="E" type="input"/>
+        <pin num="12" name="!F" type="output"/>
+        <pin num="13" name="F" type="input"/>
+        <pin num="14" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BansheeLite" part="CD4081B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD4081B</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="J" type="output"/>
+        <pin num="4" name="K" type="output"/>
+        <pin num="5" name="C" type="input"/>
+        <pin num="6" name="D" type="input"/>
+        <pin num="7" name="Vss" type="power_in"/>
+        <pin num="8" name="E" type="input"/>
+        <pin num="9" name="F" type="input"/>
+        <pin num="10" name="L" type="output"/>
+        <pin num="11" name="M" type="output"/>
+        <pin num="12" name="G" type="input"/>
+        <pin num="13" name="H" type="input"/>
+        <pin num="14" name="Vdd" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="BansheeLite" part="MCP1416T-E/OT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1416T-E/OT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="VDD" type="power_in"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Out" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="BansheeLite">
+      <uri>/home/youc/Dropbox/ZC Airsoft/Banshee Lite/BansheeLite.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C7-Pad1)">
+      <node ref="FB1" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="2" name="Net-(S1-Pad1)">
+      <node ref="Safety1" pin="2"/>
+      <node ref="S1" pin="1"/>
+    </net>
+    <net code="3" name="/!Trigger">
+      <node ref="R1" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(Battery1-Pad1)">
+      <node ref="Battery1" pin="1"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="C4" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="U1" pin="16"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U3" pin="10"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U1" pin="13"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="Safety1" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="Q1" pin="S"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="Battery2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="12" name="Net-(FB1-Pad2)">
+      <node ref="FB1" pin="2"/>
+      <node ref="Q1" pin="G"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="Q1" pin="D"/>
+      <node ref="D1" pin="2"/>
+      <node ref="Motor1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="16" name="/S">
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="17" name="/Q">
+      <node ref="U4" pin="3"/>
+      <node ref="U2" pin="13"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="18" name="/!Q1">
+      <node ref="U2" pin="11"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="19" name="/R">
+      <node ref="U1" pin="9"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="20" name="/Q1">
+      <node ref="U3" pin="5"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="21" name="/!Q">
+      <node ref="U3" pin="8"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="22" name="/!Selector">
+      <node ref="U2" pin="6"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="23" name="/B">
+      <node ref="U1" pin="10"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="24" name="/Selector">
+      <node ref="S3" pin="2"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="25" name="/Trigger">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="26" name="/A">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="27" name="Net-(U4-Pad1)">
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="28" name="/Cutoff">
+      <node ref="R5" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="S2" pin="2"/>
+    </net>
+  </nets>
+</export>
